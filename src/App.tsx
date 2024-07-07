@@ -17,7 +17,7 @@ export default function App() {
   }, []);
 
   return (
-    <div className="min-h-dvh relative py-24 bg-slate-950 text-sm grid justify-center">
+    <div className="min-h-dvh relative bg-slate-950 text-sm grid items-center justify-center">
       <AnimatePresence>
         {activeGame && (
           <div className="absolute inset-0 flex items-center justify-center">
